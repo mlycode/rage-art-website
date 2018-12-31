@@ -1,1 +1,40 @@
+/* Colour Variables */
+:root {
+    --colour-primary: #9E9E9E;
+    --colour-light-primary: #F5F5F5;
+    --colour-dark-primary-1: #616161;
+    --colour-dark-primary-2: #2D2D2D;
 
+    --colour-accent-red: #FF5252;
+
+    --colour-primary-text: #212121;
+    --colour-secondary-text: #757575;
+}
+
+/* Font size Variables */
+
+
+/* Utility classes */
+
+
+/* Global styles reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1 rem = 10px when default font-size is 16px */
+}
+
+body {
+    background-color: var(--colour-dark-primary-2);
+}

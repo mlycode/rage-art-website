@@ -3,8 +3,11 @@ import './App.css';
 
 class App extends Component {
   render() {
+    const styles = {
+      color: "var(--colour-accent-red)"
+    }
     return (
-     <p>Test</p>
+     <p style={styles}>Test</p>
     );
   }
 }
