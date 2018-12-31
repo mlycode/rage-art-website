@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Layout from './hoc/Layout/Layout';
+
 class App extends Component {
   render() {
-    const styles = {
-      color: "var(--colour-accent-red)"
-    }
     return (
-     <p style={styles}>Test</p>
+     <Layout>
+       <p>Main content goes here</p>
+     </Layout>
     );
   }
 }

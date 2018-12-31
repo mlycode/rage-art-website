@@ -1,0 +1,23 @@
+.layout {
+
+    &__container {
+        max-width: 125rem;
+        min-height: 70vh;
+        margin: 10rem auto;
+        box-shadow: 0 3px 10rem rgba(0,0,0,.7);
+
+        display: flex;
+    }
+
+    &__nav {
+        background-color: orangered;
+
+        flex: 0 0 20%;
+    }
+
+    &__content {
+        background-color: lightblue;
+
+        flex: 1;
+    }
+}
