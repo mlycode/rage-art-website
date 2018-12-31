@@ -1,0 +1,16 @@
+.nav__item {
+
+    text-transform: uppercase;
+    font-size: 2rem;
+    display: inline-block;
+
+    &:visited,
+    &:link {
+        text-decoration: none;
+        color: var(--colour-light-primary);
+    }
+}
+
+.nav__item--active {
+    color: var(--colour-accent-red) !important;
+}

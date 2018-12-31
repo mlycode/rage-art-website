@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 
 import "./Layout.scss";
+import Navbar from "../../components/Navbar/Navbar";
 
 class Layout extends Component {
 
@@ -8,9 +9,7 @@ class Layout extends Component {
         return (
             <Fragment>
                 <div className={"layout__container"}>
-                    <nav className={"layout__nav"}>
-                        <p>Navigation items here</p>
-                    </nav>
+                    <Navbar />
                     <main className={"layout__content"}>
                         {this.props.children}
                     </main>
