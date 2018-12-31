@@ -10,13 +10,13 @@
     }
 
     &__nav {
-        background-color: orangered;
+        background-color: var(--colour-dark-primary-1);
 
         flex: 0 0 20%;
     }
 
     &__content {
-        background-color: lightblue;
+        background-color: var(--colour-light-primary);
 
         flex: 1;
     }
