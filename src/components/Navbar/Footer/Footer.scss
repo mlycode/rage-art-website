@@ -1,0 +1,24 @@
+.nav__footer {
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    color: var(--colour-primary);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+    & > * {
+        margin: 0 auto;
+
+        &:not(p) {
+            text-decoration: none;
+            color: var(--colour-light-primary);
+            transition: all .2s;
+            margin-bottom: 1rem;
+
+            &:hover {
+                color: var(--colour-accent-red);
+            }
+        }
+    }
+}
