@@ -6,14 +6,16 @@ import "./Navitem.scss";
 const Navitem = (props) => {
 
     return (
-        <NavLink 
-            className="nav__item"
-            activeClassName="nav__item--active"
-            to={props.link}
-            exact
+        <div className="nav__item">
+            <NavLink
+                className="nav__link"
+                activeClassName="nav__link--active"
+                to={props.link}
+                exact
             >
-            {props.children}
-        </NavLink>
+                {props.children}
+            </NavLink>
+        </div>
     );
 };
 

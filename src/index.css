@@ -11,8 +11,15 @@
     --colour-secondary-text: #757575;
 }
 
-/* Font size Variables */
+/* Font Variables */
+:root {
+    --heading-main: 4rem;
+    --heading-secondary: 4rem;
+    --heading-sub: 2rem;
+    --normal-font-size: 1.6rem;
 
+    --font-primary: 'Roboto', sans-serif;
+}
 
 /* Utility classes */
 
