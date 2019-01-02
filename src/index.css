@@ -14,11 +14,13 @@
 /* Font Variables */
 :root {
     --heading-main: 4rem;
-    --heading-secondary: 4rem;
+    --heading-secondary: 3rem;
     --heading-sub: 2rem;
     --normal-font-size: 1.6rem;
 
     --font-primary: 'Roboto', sans-serif;
+
+    --line-height-primary: 1.4;
 }
 
 /* Utility classes */

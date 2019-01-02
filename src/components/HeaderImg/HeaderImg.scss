@@ -1,0 +1,46 @@
+.header-img {
+
+    &__container {
+        background-color: #fff;
+        width: 100%;
+        min-height: 30rem;
+
+        display: flex;
+        position: relative;
+    }
+    
+    &__image {
+        background-image: url(../../assets/img/kourtney-portrait.PNG);
+        background-size: cover;
+        background-position: center;
+        background-position-x: -2rem;
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+        flex: .8;
+    }
+
+    &__text {
+        flex: 1;
+
+        &--content {
+            font-family: var(--font-primary);
+            font-size: var(--normal-font-size);
+            line-height: var(--line-height-primary);
+            margin: 13rem 1rem;
+            margin-right: 5rem;
+            margin-bottom: 10rem;
+        }
+    }
+
+    &__title {
+        font-size: var(--heading-main);
+        font-family: var(--font-primary);
+        text-transform: uppercase;
+        color: var(--colour-accent-red);
+        letter-spacing: .7rem;
+        font-weight: 700;
+        display: block;
+        position: absolute;
+        right: 45%;
+        margin-top: 6rem;
+    }
+}
