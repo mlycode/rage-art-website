@@ -15,6 +15,7 @@
 :root {
     --heading-main: 4rem;
     --heading-secondary: 3rem;
+    --heading-secondary-2: 3.5rem;
     --heading-sub: 2rem;
     --normal-font-size: 1.6rem;
 
@@ -24,7 +25,8 @@
 }
 
 /* Utility classes */
-
+.margin-bottom-lg { margin-bottom: 15rem; }
+.margin-top-lg { margin-top: 15rem; }
 
 /* Global styles reset */
 * {
@@ -46,4 +48,5 @@ html {
 
 body {
     background-color: var(--colour-dark-primary-2);
+    color: var(--colour-primary-text);
 }
