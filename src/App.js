@@ -9,18 +9,20 @@ import Illustrations from "./containers/Illustrations/Illustrations";
 import Exhibitions from "./containers/Exhibitions/Exhibitions";
 import Modelling from "./containers/Modelling/Modelling";
 import Commisions from "./containers/Commisions/Commisions";
+import RagePage from "./containers/Paintings/Rage/Rage";
 
 class App extends Component {
   render() {
 
     const routes = (
       <Switch>
+        <Route exact path="/paintings" component={ Paintings } />
+        <Route exact path="/paintings/rage" component={ RagePage } />
+        <Route exact path="/illustrations" component={ Illustrations } />
+        <Route exact path="/exhibitions" component={ Exhibitions } />
+        <Route exact path="/modelling" component={ Modelling } />
+        <Route exact path="/commisions" component={ Commisions } />
         <Route exact path="/" component={ Home } />
-        <Route path="/paintings" component={ Paintings } />
-        <Route path="/illustrations" component={ Illustrations } />
-        <Route path="/exhibitions" component={ Exhibitions } />
-        <Route path="/modelling" component={ Modelling } />
-        <Route path="/commisions" component={ Commisions } />
         <Redirect to="/" />
       </Switch>
     )

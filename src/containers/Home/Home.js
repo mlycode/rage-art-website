@@ -19,7 +19,7 @@ class Home extends Component {
                 </HeaderImg>
                 <Heading1>highlights</Heading1>
                 <HightlightCard
-                    link="/paintings" 
+                    link="/paintings/rage" 
                     sectionType="painting"
                     backgroundImg={highlightImg1}
                     title="rage series"
