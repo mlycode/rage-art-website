@@ -10,6 +10,7 @@ import Exhibitions from "./containers/Exhibitions/Exhibitions";
 import Modelling from "./containers/Modelling/Modelling";
 import Commisions from "./containers/Commisions/Commisions";
 import RagePage from "./containers/Paintings/Rage/Rage";
+import AbstractPage from "./containers/Paintings/Abstract/Abstract";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
       <Switch>
         <Route exact path="/paintings" component={ Paintings } />
         <Route exact path="/paintings/rage" component={ RagePage } />
+        <Route exact path="/paintings/abstract" component={ AbstractPage } />
         <Route exact path="/illustrations" component={ Illustrations } />
         <Route exact path="/exhibitions" component={ Exhibitions } />
         <Route exact path="/modelling" component={ Modelling } />
