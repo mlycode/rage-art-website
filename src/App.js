@@ -11,6 +11,9 @@ import Modelling from "./containers/Modelling/Modelling";
 import Commisions from "./containers/Commisions/Commisions";
 import RagePage from "./containers/Paintings/Rage/Rage";
 import AbstractPage from "./containers/Paintings/Abstract/Abstract";
+import UalReportPage from "./containers/Illustrations/ual-diversity/UalDiversity";
+import DigitalRapPage from "./containers/Illustrations/digital-rap/DigitalRap";
+import ZombieModelPage from "./containers/Illustrations/zombie-models/ZombieModels";
 
 class App extends Component {
   render() {
@@ -21,6 +24,9 @@ class App extends Component {
         <Route exact path="/paintings/rage" component={ RagePage } />
         <Route exact path="/paintings/abstract" component={ AbstractPage } />
         <Route exact path="/illustrations" component={ Illustrations } />
+        <Route exact path="/illustrations/ual-diversity" component={ UalReportPage } />
+        <Route exact path="/illustrations/digital-rap" component={ DigitalRapPage } />
+        <Route exact path="/illustrations/zombie-models" component={ ZombieModelPage } />
         <Route exact path="/exhibitions" component={ Exhibitions } />
         <Route exact path="/modelling" component={ Modelling } />
         <Route exact path="/commisions" component={ Commisions } />
