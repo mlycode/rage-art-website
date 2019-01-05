@@ -17,6 +17,7 @@ import ZombieModelPage from "./containers/Illustrations/zombie-models/ZombieMode
 import AdeptGazePage from "./containers/Exhibitions/adept-gaze/AdeptGaze";
 import DegreeShowPage from "./containers/Exhibitions/degree-show/DegreeShow";
 import ColourEdPage from "./containers/Exhibitions/colour-ed/ColourEd";
+import ThirdEyePage from "./containers/Exhibitions/third-eye/ThirdEye";
 
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
         <Route exact path="/exhibitions/adept-gaze" component={ AdeptGazePage } />
         <Route exact path="/exhibitions/ual-degree-show" component={ DegreeShowPage } />
         <Route exact path="/exhibitions/colour-ed" component={ ColourEdPage } />
+        <Route exact path="/exhibitions/third-eye" component={ ThirdEyePage } />
         <Route exact path="/modelling" component={ Modelling } />
         <Route exact path="/commisions" component={ Commisions } />
         <Route exact path="/" component={ Home } />
