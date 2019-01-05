@@ -1,18 +1,17 @@
 import React, { Component, Fragment } from "react";
 
 import ImgGrid from "../../../components/ImgGrid/ImgGrid";
-import img1 from "../../../assets/img/21.jpg";
-import img2 from "../../../assets/img/earll.jpg";
-import img3 from "../../../assets/img/lil-uzi.jpg";
-import img4 from "../../../assets/img/maleeka.jpg";
-import img5 from "../../../assets/img/pryde.jpg";
-import img6 from "../../../assets/img/taco.jpg";
-import img7 from "../../../assets/img/trippe.jpg";
-import img8 from "../../../assets/img/tyler.jpg";
-import img9 from "../../../assets/img/scarlxrd.jpg";
+import img1 from "../../../assets/img/a1.jpg";
+import img2 from "../../../assets/img/a2.jpg";
+import img3 from "../../../assets/img/a3.jpg";
+import img4 from "../../../assets/img/a4.jpg";
+import img5 from "../../../assets/img/a5.jpg";
+import img6 from "../../../assets/img/a6.jpg";
+import img7 from "../../../assets/img/a7.jpg";
+import img8 from "../../../assets/img/a8.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
-import ArtworkCard from "../../../components/ArtworkCard/ArtworkCard";
+import FlexImages from "../../../components/FlexImages/FlexImages";
 
 class AdeptGazePage extends Component {
 
@@ -25,7 +24,16 @@ class AdeptGazePage extends Component {
                 <ArtDesc title="description">
                     <p>Adept Gaze is a platform aiming to promote and share the work of young artists living in London. The team does this through regular short videos starring the artists themselves. We want to include as diverse a group of artists as possible including painters, dancers, musicians, cinematographers, chefs, etc. They must be unique, go-getters, motivated individuals with drive and self-belief. It also acts as a platform for collaboration. In the future, it is our hope to introduce more elements including exhibitions and events.</p>
                 </ArtDesc>
-                
+                <FlexImages>
+                    <img  src={img1} alt="adept 1"/>
+                    <img  src={img2} alt="adept 2"/>
+                    <img  src={img3} alt="adept 3"/>
+                    <img  src={img4} alt="adept 4"/>
+                    <img  src={img5} alt="adept 5"/>
+                    <img  src={img6} alt="adept 6"/>
+                    <img  src={img7} alt="adept 7"/>
+                    <img  src={img8} alt="adept 8"/>
+                </FlexImages>
             </Fragment>
         );
     };
