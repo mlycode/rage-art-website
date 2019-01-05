@@ -2,11 +2,11 @@
     margin: 15rem 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 
     & img {
-        max-width: 50%;
+        width: 50%;
         max-height: 100%;
         padding: 1rem;
     }

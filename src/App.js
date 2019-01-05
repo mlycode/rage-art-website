@@ -14,7 +14,8 @@ import AbstractPage from "./containers/Paintings/Abstract/Abstract";
 import UalReportPage from "./containers/Illustrations/ual-diversity/UalDiversity";
 import DigitalRapPage from "./containers/Illustrations/digital-rap/DigitalRap";
 import ZombieModelPage from "./containers/Illustrations/zombie-models/ZombieModels";
-import AdeptGazePage from "./containers/Exhibitions/adept-gaze/AdeptGaze";;
+import AdeptGazePage from "./containers/Exhibitions/adept-gaze/AdeptGaze";
+import DegreeShowPage from "./containers/Exhibitions/degree-show/DegreeShow";
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
         <Route exact path="/illustrations/zombie-models" component={ ZombieModelPage } />
         <Route exact path="/exhibitions" component={ Exhibitions } />
         <Route exact path="/exhibitions/adept-gaze" component={ AdeptGazePage } />
+        <Route exact path="/exhibitions/ual-degree-show" component={ DegreeShowPage } />
         <Route exact path="/modelling" component={ Modelling } />
         <Route exact path="/commisions" component={ Commisions } />
         <Route exact path="/" component={ Home } />
