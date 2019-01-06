@@ -12,6 +12,8 @@
         justify-content: center;
         grid-gap: 2rem;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
+        background-color: #fff;
+        padding: 2rem 0;
 
         & > * {
             background-color: grey;
