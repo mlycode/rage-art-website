@@ -8,9 +8,9 @@ const HeaderImg = (props) => {
             <div className="header-img__image"></div>
             <h1 className="header-img__title">{props.title}</h1>
             <div className="header-img__text">
-                <p className="header-img__text--content">
+                <div className="header-img__text--content">
                     {props.children}
-                </p>
+                </div>
             </div>
         </header>
     );

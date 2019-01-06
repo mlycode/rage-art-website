@@ -1,0 +1,60 @@
+.modelling {
+
+    a:visited,
+    a:link {
+        color: var(--colour-accent-red);
+        text-decoration: none;
+    }
+
+    &__gallery {
+        margin: 10rem 0;
+        display: grid;
+        justify-content: center;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
+
+        & > * {
+            background-color: grey;
+            height: 30rem;
+            background-size: cover;
+            background-position: center;
+        }
+
+        &--1 {
+            background-image: url(../../assets/img/m1.JPG);
+        }
+
+        &--2 {
+            background-image: url(../../assets/img/m2.JPG);
+        }
+
+        &--3 {
+            background-image: url(../../assets/img/m3.JPG);
+        }
+
+        &--4 {
+            background-image: url(../../assets/img/m4.JPG);
+        }
+
+        &--5 {
+            background-image: url(../../assets/img/m5.JPG);
+        }
+
+        &--6 {
+            background-image: url(../../assets/img/m6.JPG);
+        }
+
+        &--7 {
+            background-image: url(../../assets/img/m7.JPG);
+        }
+
+        &--8 {
+            background-image: url(../../assets/img/m8.JPG);
+        }
+
+        &--9 {
+            background-image: url(../../assets/img/m9.JPG);
+        }
+
+    }
+}
