@@ -12,6 +12,7 @@ import img1 from "../../../assets/img/rainbow-painting-2.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import ArtworkCard from "../../../components/ArtworkCard/ArtworkCard";
+import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class AbstractPage extends Component {
 
@@ -19,6 +20,7 @@ class AbstractPage extends Component {
 
         return (
             <Fragment>
+                <BackLinkButton link="/paintings"/>
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>abstract</Heading1>
                 <ArtDesc title="description">

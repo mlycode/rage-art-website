@@ -1,0 +1,38 @@
+.back-button {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10rem;
+    z-index: 1000;
+    transition: all .2s;
+
+    & a {
+        font: var(--primary-font);
+        font-size: 6rem;
+        position: absolute;
+        left: 1.2rem;
+        top: .4rem;
+        color: var(--colour-primary-text);
+        text-decoration: none;
+        transition: all .2s;
+    }
+
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-3px);
+        box-shadow: 0 3px 2rem rgba(black, .4);
+
+        a {
+            color: var(--colour-accent-red);
+        }
+    }
+
+    &:active {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+}
