@@ -9,6 +9,7 @@ import img5 from "../../../assets/img/report-artwork-6.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import ArtworkCard from "../../../components/ArtworkCard/ArtworkCard";
+import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class UalReportPage extends Component {
 
@@ -16,6 +17,7 @@ class UalReportPage extends Component {
 
         return (
             <Fragment>
+                <BackLinkButton link="/illustrations"/>
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>ual diversity report</Heading1>
                 <ArtDesc title="description">

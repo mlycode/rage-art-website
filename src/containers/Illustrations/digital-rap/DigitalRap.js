@@ -13,6 +13,7 @@ import img9 from "../../../assets/img/scarlxrd.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import ArtworkCard from "../../../components/ArtworkCard/ArtworkCard";
+import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class DigitalRapPage extends Component {
 
@@ -20,6 +21,7 @@ class DigitalRapPage extends Component {
 
         return (
             <Fragment>
+                <BackLinkButton link="/illustrations"/>
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>digital rap</Heading1>
                 <ArtDesc title="description">

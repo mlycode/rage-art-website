@@ -16,6 +16,8 @@ import img12 from "../../../assets/img/b12.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import FlexImages from "../../../components/FlexImages/FlexImages";
+import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
+
 
 class DegreeShowPage extends Component {
 
@@ -23,6 +25,7 @@ class DegreeShowPage extends Component {
 
         return (
             <Fragment>
+                <BackLinkButton link="/exhibitions"/>
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>ual fine art degree show</Heading1>
                 <ArtDesc title="description">

@@ -10,6 +10,7 @@ import img6 from "../../../assets/img/z6.jpeg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import ArtworkCard from "../../../components/ArtworkCard/ArtworkCard";
+import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class ZombieModelsPage extends Component {
 
@@ -17,6 +18,7 @@ class ZombieModelsPage extends Component {
 
         return (
             <Fragment>
+                <BackLinkButton link="/illustrations"/>
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>zombie models</Heading1>
                 <ArtDesc title="description">

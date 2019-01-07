@@ -21,6 +21,8 @@ import img17 from "../../../assets/img/c17.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import FlexImages from "../../../components/FlexImages/FlexImages";
+import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
+
 
 class ColourEdPage extends Component {
 
@@ -28,6 +30,7 @@ class ColourEdPage extends Component {
 
         return (
             <Fragment>
+                <BackLinkButton link="/exhibitions"/>
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>colour(ed)</Heading1>
                 <ArtDesc title="description">
