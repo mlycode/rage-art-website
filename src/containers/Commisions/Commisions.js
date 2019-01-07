@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 
+import "./Commisions.scss";
 import Heading1 from "../../components/Heading1/Heading1";
 import HeaderImg from "../../components/HeaderImg/HeaderImg";
 import ArtDesc from "../../components/ArtDesc/ArtDesc";
+import DescCard from "../../components/DescCard/DescCard";
+import img1 from "../../assets/img/1.jpg";
 
 class Commisions extends Component {
 
@@ -20,6 +23,15 @@ class Commisions extends Component {
                 <ArtDesc title="info">
                     <p>Contact me if you are interested in commisioning artwork. Rough prices are shown below</p>
                 </ArtDesc>
+                <section className="commisions__description">
+                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
+                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
+                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
+                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
+                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
+                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
+                </section>
+                
             </section>
         );
     };
