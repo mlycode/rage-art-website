@@ -5,10 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter } from 'react-router-dom';
+import ScrollToTop from "./hoc/ScrollToTop/ScrollToTop";
 
 const app = (
     <BrowserRouter>
-        <App />
+        <ScrollToTop>
+            <App />
+        </ScrollToTop>
     </BrowserRouter>
 );
 

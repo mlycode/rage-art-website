@@ -12,7 +12,7 @@ class Commisions extends Component {
     render () {
 
         return (
-            <section>
+            <section className="commisions">
                 <HeaderImg title="Contact">
                     <p><strong>Email:</strong> kourtney-Paul@outlook.com</p>
                     <p><strong>Instagram:</strong> <a href="https://www.instagram.com/therageart/" target="blank">@therageart</a></p>
