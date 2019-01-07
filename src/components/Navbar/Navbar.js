@@ -11,7 +11,7 @@ const Navbar = (props) => {
         <nav className={"navbar"}>
             <Logo />
             <Navitems />
-            <Footer />
+            <span className="navbar__footer"><Footer /></span>
         </nav>
     )
 }

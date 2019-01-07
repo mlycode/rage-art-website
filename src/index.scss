@@ -46,6 +46,14 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     /* 1 rem = 10px when default font-size is 16px */
+    
+    @media only screen and (max-width: 78em) {
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+        font-size: 37.5%;
+    }
 }
 
 body {

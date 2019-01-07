@@ -5,4 +5,10 @@
 
     display: flex;
     flex-direction: column;
+
+    &__footer {
+        @media only screen and (max-width: 62.5em) {
+            display: none;
+        }
+    }
 }

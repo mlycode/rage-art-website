@@ -26,14 +26,14 @@ class Home extends Component {
                     subtitle="CREATING THE SPACE FOR STREET ART IN THE CONTEMPORARY ART WORLd"
                 />
                 <HightlightCard
-                    link="/" 
+                    link="/illustrations/ual-diversity" 
                     sectionType="illustration"
                     backgroundImg={highlightImg2}
                     title="UAL DIVERSITY REPORT"
                     subtitle="A SERIES INVESTIGATING BAME REPRESENTATION AT UAL"
                 />
                 <HightlightCard
-                    link="/" 
+                    link="/exhibitions/ual-degree-show" 
                     sectionType="EXHIBITION"
                     backgroundImg={highlightImg3}
                     title="UAL FINE ART DEGREE"
