@@ -4,8 +4,8 @@ import "./ToggleButton.scss";
 
 const ToggleButton = (props) => {
     return (
-        <button className="navigation__button">
-            <div className="navigation__button--burger"></div>
+        <button className="navigation__button" onClick={props.click}>
+            <div className="navigation__button--burger" style={props.toggleStyle}></div>
         </button>
     );
 }

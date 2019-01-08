@@ -33,11 +33,6 @@
             transform: translateY(-5px);
         }
 
-        &:active,
-        &:hover {
-            color: var(--colour-accent-red);
-            background-color: var(--colour-accent-red);
-        }
     }
 
 }

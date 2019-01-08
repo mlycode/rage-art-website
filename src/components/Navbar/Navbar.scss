@@ -25,4 +25,25 @@
             display: block;
         }
     }
+
+    &__top-menu {
+        display: block;
+        transform: scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+        height: 0rem;
+        transition: all .3s;
+
+        @media only screen and (min-width: 62.5em) {
+            display: none;
+        }
+    }
+
+    &__sidebar {
+        margin-bottom: auto;
+
+        @media only screen and (max-width: 62.5em) {
+            display: none;
+        }
+    }
 }
