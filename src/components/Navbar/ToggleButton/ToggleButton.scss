@@ -1,10 +1,11 @@
 .navigation__button {
-    width: 5rem;
-    height: 4rem;
+    width: 7rem;
+    height: 6rem;
     border-radius: 3px;
     background-color: transparent;
     border: none;
     box-shadow: 0 0 1rem rgba(black, .3);
+    outline: none;
 
     &--burger {
         height: 2px;
@@ -26,11 +27,11 @@
         }
 
         &::after {
-            transform: translateY(3px);
+            transform: translateY(.8rem);
         }
 
         &::before {
-            transform: translateY(-5px);
+            transform: translateY(-1rem);
         }
 
     }
