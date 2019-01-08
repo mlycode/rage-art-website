@@ -7,6 +7,10 @@
 
         display: flex;
         position: relative;
+
+        @media only screen and (max-width: 31.25em) {
+            flex-direction: column;
+        }
     }
     
     &__image {
@@ -16,6 +20,11 @@
         background-position-x: -2rem;
         clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
         flex: .8;
+
+        @media only screen and (max-width: 31.25em) {
+            clip-path: none;
+            height: 25rem;
+        }
     }
 
     &__text {
@@ -28,6 +37,13 @@
             margin: 13rem 1rem;
             margin-right: 5rem;
             margin-bottom: 10rem;
+
+            @media only screen and (max-width: 31.25em) {
+                width: 90%;
+                text-align: center;
+                margin: 5rem auto;
+                margin-top: 15rem;
+            }
 
             & p {
                 margin-bottom: 1rem;
@@ -46,5 +62,11 @@
         position: absolute;
         right: 45%;
         margin-top: 6rem;
+
+        @media only screen and (max-width: 31.25em) {
+            margin: 0 auto;
+            margin-top: -15rem;
+            position: initial;
+        }
     }
 }
