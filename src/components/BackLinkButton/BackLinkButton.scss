@@ -10,12 +10,16 @@
     z-index: 1000;
     transition: all .2s;
 
+    @media only screen and (max-width: 62.5em) {
+        margin-right: 5rem;
+    }
+
     & a {
         font: var(--primary-font);
         font-size: 6rem;
-        position: absolute;
-        left: 1.2rem;
-        top: .4rem;
+        display: block;
+        margin-left: 1.3rem;
+        margin-top: .3rem;
         color: var(--colour-primary-text);
         text-decoration: none;
         transition: all .2s;
