@@ -15,6 +15,10 @@ class Layout extends Component {
         });
     };
 
+    navDrawerContentClickHandler = () => {
+        this.setState({navDrawerOpen: false});
+    };
+
     render () {
 
         let menuToggle;
@@ -27,7 +31,7 @@ class Layout extends Component {
             <Fragment>
                 <div className={"layout__container"}>
                     <Navbar menuToggle={menuToggle} navDrawerToggle={this.navDrawerToggleClickHandler}/>
-                    <main className={"layout__content"}>
+                    <main className={"layout__content"} onClick={this.navDrawerContentClickHandler}>
                         {this.props.children}
                     </main>
                 </div>
