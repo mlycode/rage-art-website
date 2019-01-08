@@ -1,0 +1,43 @@
+.navigation__button {
+    width: 5rem;
+    height: 4rem;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 1rem rgba(black, .3);
+
+    &--burger {
+        height: 2px;
+        width: 70%;
+        margin: 0 auto;
+        background-color: var(--colour-light-primary);
+        border-radius: 3px;
+        color: var(--colour-light-primary);
+
+        &::after,
+        &::before {
+            content: "";
+            height: 2px;
+            width: 100%;
+            background-color: currentColor;
+            border-radius: 3px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        &::after {
+            transform: translateY(3px);
+        }
+
+        &::before {
+            transform: translateY(-5px);
+        }
+
+        &:active,
+        &:hover {
+            color: var(--colour-accent-red);
+            background-color: var(--colour-accent-red);
+        }
+    }
+
+}
