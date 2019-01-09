@@ -15,7 +15,7 @@ import img11 from "../../../assets/img/b11.jpg";
 import img12 from "../../../assets/img/b12.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
-import FlexImages from "../../../components/FlexImages/FlexImages";
+import MasonryImgs from "../../../components/MasonryImgs/MasonryImgs";
 import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 
@@ -31,7 +31,7 @@ class DegreeShowPage extends Component {
                 <ArtDesc title="description">
                     <p>Adept Gaze is a platform aiming to promote and share the work of young artists living in London. The team does this through regular short videos starring the artists themselves. We want to include as diverse a group of artists as possible including painters, dancers, musicians, cinematographers, chefs, etc. They must be unique, go-getters, motivated individuals with drive and self-belief. It also acts as a platform for collaboration. In the future, it is our hope to introduce more elements including exhibitions and events.</p>
                 </ArtDesc>
-                <FlexImages>
+                <MasonryImgs>
                     <img  src={img1} alt="degreeshow 1"/>
                     <img  src={img2} alt="degreeshow 2"/>
                     <img  src={img3} alt="degreeshow 3"/>
@@ -44,7 +44,7 @@ class DegreeShowPage extends Component {
                     <img  src={img10} alt="degreeshow 10"/>
                     <img  src={img11} alt="degreeshow 11"/>
                     <img  src={img12} alt="degreeshow 12"/>
-                </FlexImages>
+                </MasonryImgs>
             </Fragment>
         );
     };

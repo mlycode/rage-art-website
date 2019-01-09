@@ -20,7 +20,7 @@ import img16 from "../../../assets/img/c16.jpg";
 import img17 from "../../../assets/img/c17.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
-import FlexImages from "../../../components/FlexImages/FlexImages";
+import MasonryImgs from "../../../components/MasonryImgs/MasonryImgs";
 import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 
@@ -37,7 +37,7 @@ class ColourEdPage extends Component {
                     <p>The exhibition Colour(ed) consists of Kourtney Paul, Samantha Sun, and Zoe Sim. Our work explores the personal as political through colourful palettes and humor. Our practices are brought together through the use of personal anecdotes and experiences that inspire our art, regardless of the levels of explicitly or subtlety. Across our practices, colour is important (in all senses of the word). </p>
                     <p>There are several elements reflected within our work, including issues of race within an art school, the world through pink dreamscapes, as well as some site-specific art about sex work. We have collaborated to make a series of drawings, using Kourtney’s technique of phrases within his paintings. Sam contributed personal stories around racially charged observations from kink and fetish communities, these were then drawn over Zoe’s photographs.</p>
                 </ArtDesc>
-                <FlexImages>
+                <MasonryImgs>
                     <img  src={img1} alt="colour(ed) 1"/>
                     <img  src={img2} alt="colour(ed) 2"/>
                     <img  src={img3} alt="colour(ed) 3"/>
@@ -55,7 +55,7 @@ class ColourEdPage extends Component {
                     <img  src={img15} alt="colour(ed) 15"/>
                     <img  src={img16} alt="colour(ed) 16"/>
                     <img  src={img17} alt="colour(ed) 17"/>
-                </FlexImages>
+                </MasonryImgs>
             </Fragment>
         );
     };

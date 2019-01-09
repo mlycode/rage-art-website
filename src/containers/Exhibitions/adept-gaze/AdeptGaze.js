@@ -11,7 +11,7 @@ import img7 from "../../../assets/img/a7.jpg";
 import img8 from "../../../assets/img/a8.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
-import FlexImages from "../../../components/FlexImages/FlexImages";
+import MasonryImgs from "../../../components/MasonryImgs/MasonryImgs";
 import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class AdeptGazePage extends Component {
@@ -26,7 +26,7 @@ class AdeptGazePage extends Component {
                 <ArtDesc title="description">
                     <p>Adept Gaze is a platform aiming to promote and share the work of young artists living in London. The team does this through regular short videos starring the artists themselves. We want to include as diverse a group of artists as possible including painters, dancers, musicians, cinematographers, chefs, etc. They must be unique, go-getters, motivated individuals with drive and self-belief. It also acts as a platform for collaboration. In the future, it is our hope to introduce more elements including exhibitions and events.</p>
                 </ArtDesc>
-                <FlexImages>
+                <MasonryImgs>
                     <img  src={img1} alt="adept 1"/>
                     <img  src={img2} alt="adept 2"/>
                     <img  src={img3} alt="adept 3"/>
@@ -35,7 +35,7 @@ class AdeptGazePage extends Component {
                     <img  src={img6} alt="adept 6"/>
                     <img  src={img7} alt="adept 7"/>
                     <img  src={img8} alt="adept 8"/>
-                </FlexImages>
+                </MasonryImgs>
             </Fragment>
         );
     };

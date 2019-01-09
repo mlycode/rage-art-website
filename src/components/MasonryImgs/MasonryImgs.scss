@@ -1,0 +1,14 @@
+.masonry-imgs {
+    column-count: 2;
+    grid-column-gap: 0;
+    padding: 1rem;
+
+    @media only screen and (max-width: 37.5em) {
+        column-count: 1;
+    }
+
+    & img {
+        width: 100%;
+        padding: 1rem;
+    }
+}
