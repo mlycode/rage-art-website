@@ -15,6 +15,7 @@ const HighlightCard = (props) => {
                 <h1 className="highlight-card__heading">{props.sectionType}</h1>
                 <h2 className="highlight-card__title">{props.title}</h2>
                 <h3 className="highlight-card__subtitle">{props.subtitle}</h3>
+                <h3 className="highlight-card__read-more">click to read more &rarr;</h3>
             </div>
         </Link>
         
