@@ -3,6 +3,10 @@
     margin: 10rem auto;
     max-width: 70%;
 
+    @media only screen and (max-width: 31.25em) {
+        max-width: 90%;
+    }
+
     &-card {
 
         &--title {
