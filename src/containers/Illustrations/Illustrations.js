@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 
 import img1 from "../../assets/img/report-artwork4.jpg";
-import img2 from "../../assets/img/tyler.jpg";
+import img2 from "../../assets/img/willow-s.jpg";
 import img3 from "../../assets/img/z-1.jpeg";
 import Heading1 from "../../components/Heading1/Heading1";
 import HightlightCard from "../../components/HighlightCard/HighlightCard";
