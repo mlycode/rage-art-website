@@ -13,7 +13,7 @@ class Illustrations extends Component {
         return (
             <Fragment>
                 <Heading1>
-                    overview
+                    illustrations
                 </Heading1>
 
                 <HightlightCard
