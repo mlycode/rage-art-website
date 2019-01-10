@@ -13,7 +13,7 @@ class Paintings extends Component {
         return (
             <Fragment>
                 <Heading1>
-                    overview
+                    paintings
                 </Heading1>
 
                 <HightlightCard
