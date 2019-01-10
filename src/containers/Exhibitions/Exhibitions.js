@@ -13,7 +13,7 @@ class Exhibitions extends Component {
 
         return (
             <Fragment>
-                <Heading1>overview</Heading1>
+                <Heading1>exhibitions</Heading1>
 
                 <HighlightCard
                     link="/exhibitions/ual-degree-show"
