@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from "react";
 
 import ImgGrid from "../../../components/ImgGrid/ImgGrid";
-import img5 from "../../../assets/img/z-1.jpeg";
-import img2 from "../../../assets/img/z-2.jpeg";
-import img3 from "../../../assets/img/z3.jpeg";
-import img4 from "../../../assets/img/z4.jpeg";
-import img1 from "../../../assets/img/z5.jpeg";
-import img6 from "../../../assets/img/z6.jpeg";
+import img5 from "../../../assets/img/z-1.jpg";
+import img2 from "../../../assets/img/z-2.jpg";
+import img3 from "../../../assets/img/z3.jpg";
+import img4 from "../../../assets/img/z4.jpg";
+import img1 from "../../../assets/img/z5.jpg";
+import img6 from "../../../assets/img/z6.jpg";
 import Heading1 from "../../../components/Heading1/Heading1";
 import ArtDesc from "../../../components/ArtDesc/ArtDesc";
 import ArtworkCard from "../../../components/ArtworkCard/ArtworkCard";
