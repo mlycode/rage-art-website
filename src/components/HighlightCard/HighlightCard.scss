@@ -12,6 +12,8 @@
         background-size: cover;
         background-position: center;
         transition: all .3s;
+        padding-left: 1rem;
+        box-shadow: 0 3px 2rem rgba(black, .15);
 
         &:hover {
             box-shadow: 0 1rem 3rem rgba(black, .3);
@@ -35,6 +37,13 @@
         top: -2.6rem;
         right: 0;
         margin-right: 3rem;
+        text-align: right;
+
+        @media only screen and (max-width: 37.5em) {
+            margin-right: 1rem;
+            font-size: var(--heading-secondary-2);
+            top: -2.2rem;
+        }
     }
 
     &__title {
@@ -48,6 +57,16 @@
         padding-top: 22rem;
         padding-bottom: 1rem;
         margin-right: 3rem;
+        text-shadow: 0 3px 1rem #ffffff;
+
+        @media only screen and (max-width: 37.5em) {
+            margin-right: 1.5rem;
+            font-size: var(--heading-sub-2);
+        }
+
+        @media only screen and (max-width: 21.875em) {
+            padding-top: 26rem;
+        }
     }
 
     &__subtitle {
@@ -55,9 +74,18 @@
         text-transform: uppercase;
         font-family: var(--font-primary);
         font-size: var(--heading-sub);
-        font-weight: 400;
+        font-weight: 700;
         letter-spacing: .3rem;
         margin-right: 3rem;
+        text-shadow: 0 3px 1rem #ffffff;
+
+        @media only screen and (max-width: 37.5em) {
+            margin-right: 1.5rem;
+        }
+
+        @media only screen and (max-width: 21.875em) {
+            display: none;
+        }
     }
 
     &__read-more {
@@ -67,7 +95,16 @@
         font-size: var(--small-font-size);
         letter-spacing: .3rem;
         margin-right: 3rem;
-        font-weight: 400;
+        font-weight: 700;
         margin-top: 1rem;
+        text-shadow: 0 3px 1rem #ffffff;
+
+        @media only screen and (max-width: 37.5em) {
+            margin-right: 1.5rem;
+        }
+
+        @media only screen and (max-width: 21.875em) {
+            margin-top: 0;
+        }
     }
 }
