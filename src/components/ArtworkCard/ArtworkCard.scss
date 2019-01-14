@@ -13,7 +13,7 @@
             font-family: var(--font-primary);
             font-size: var(--heading-main);
             color: var(--colour-accent-red);
-            font-weight: 400;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: .5rem;
             position: absolute;
@@ -21,6 +21,16 @@
             right: 0;
             z-index: 1;
             margin-right: 4rem;
+            text-shadow: 2px 2px 1px white;
+            text-align: right;
+
+            @media only screen and (max-width: 37.5em) {
+                margin-right: 2rem;
+            }
+
+            @media only screen and (max-width: 31.25em) {
+                font-size: var(--heading-secondary);
+            }
         }
     
         &__image {
