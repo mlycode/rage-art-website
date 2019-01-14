@@ -9,7 +9,7 @@ import ToggleButton from "./ToggleButton/ToggleButton";
 const Navbar = (props) => {
 
     let toggleMenu;
-    let toggleButton;
+    let toggleBurger;
 
     if (props.menuToggle) {
         toggleMenu = {
@@ -18,7 +18,7 @@ const Navbar = (props) => {
             opacity: "1"
         };
 
-        toggleButton = {
+        toggleBurger = {
             color: "#FF5252",
             backgroundColor: "#FF5252"
         };
@@ -27,7 +27,7 @@ const Navbar = (props) => {
     return (
         <nav className="navbar">
             <Logo />
-            <span className="navbar__toggle"><ToggleButton toggleStyle={toggleButton} click={props.navDrawerToggle}/></span>
+            <span className="navbar__toggle"><ToggleButton toggleBurger={toggleBurger} click={props.navDrawerToggle}/></span>
             <div className="navbar__top-menu" style={toggleMenu}><Navitems /></div>
             <div className="navbar__sidebar"><Navitems /></div>
             <span className="navbar__footer"><Footer /></span>
