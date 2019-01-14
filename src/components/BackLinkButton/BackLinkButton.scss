@@ -15,14 +15,15 @@
     }
 
     & a {
-        font: var(--primary-font);
+        font-family: var(--primary-font);
         font-size: 6rem;
         display: block;
-        margin-left: 1.3rem;
-        margin-top: .3rem;
+        margin-top: .7rem;
         color: var(--colour-primary-text);
         text-decoration: none;
         transition: all .2s;
+        line-height: 1.0;
+        text-align: center;
     }
 
     &:hover {
