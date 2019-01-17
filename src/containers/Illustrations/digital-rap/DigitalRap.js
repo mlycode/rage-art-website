@@ -31,43 +31,43 @@ class DigitalRapPage extends Component {
                 <ArtDesc title="description">
                     <p>The Digital Rap series is an ongoing project which consists of illustrations of musician I'm currently listening to at that moment in time. My style of drawing constantly changes depending on the type of music and the energy it brings into the drawing, however recently I’ve been re-watching old anime series such as Hunter x Hunter, Bleach, Attack on Titan and many more.</p>
                 </ArtDesc>
-                <ArtworkCard img={img7} title="Devil Trip" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img7} title="Devil Trip" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img4} title="Willow Smith" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img4} title="Willow Smith" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img10} title="Skept" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img10} title="Skept" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img11} title="Jojo Smith" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img11} title="Jojo Smith" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img12} title="Cardi B" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img12} title="Cardi B" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img13} title="Rico Nasty" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img13} title="Rico Nasty" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img1} title="ISSA GON" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img1} title="ISSA GON" year="2017" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img2} title="Early Man" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img2} title="Early Man" year="2017" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img3} title="Lil Uzi" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img3} title="Lil Uzi" year="2017" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img5} title="Pryde" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img5} title="Pryde" year="2017" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img6} title="YUNG TACO" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img6} title="YUNG TACO" year="2017" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img8} title="BIG GOLF" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img8} title="BIG GOLF" year="2017" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
-                <ArtworkCard img={img9} title="Scarlxrd" year="2016" subtitle="Digital Illustration">
+                <ArtworkCard img={img9} title="Scarlxrd" year="2018" subtitle="Digital Illustration">
                     
                 </ArtworkCard>
             </Fragment>
