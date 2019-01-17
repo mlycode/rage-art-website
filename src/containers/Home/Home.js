@@ -6,7 +6,7 @@ import Heading1 from "../../components/Heading1/Heading1";
 import HightlightCard from "../../components/HighlightCard/HighlightCard";
 import highlightImg1 from "../../assets/img/2.jpg";
 import highlightImg2 from "../../assets/img/report-artwork4.jpg";
-import highlightImg3 from "../../assets/img/img_1143.jpg";
+import highlightImg3 from "../../assets/img/degreeshow.jpg";
 import highlightImg4 from "../../assets/img/willow-s.jpg";
 
 class Home extends Component {
@@ -44,7 +44,7 @@ class Home extends Component {
                     link="/exhibitions/ual-degree-show" 
                     sectionType="EXHIBITION"
                     backgroundImg={highlightImg3}
-                    title="UAL FINE ART DEGREE"
+                    title="FINE ART DEGREE show"
                     subtitle="WORK FEATURED AT UAL'S FINE ART DEGREE EXHIBITION"
                 />
 
