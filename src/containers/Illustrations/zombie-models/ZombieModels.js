@@ -22,8 +22,7 @@ class ZombieModelsPage extends Component {
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>zombie models</Heading1>
                 <ArtDesc title="description">
-                    <p>Use your imagination, let it go. But they're very easily killed. Clouds are delicate. You have to make those little noises or it won't work. Let's put some highlights on these little trees. The sun wouldn't forget them. Let's give him a friend too. Everybody needs a friend.</p>
-                    <p>You can get away with a lot. Now let's put some happy little clouds in here. Let's make a happy little mountain now. Everyone needs a friend. Friends are the most valuable things in the world. Let's get wild today. Little trees and bushes grow however makes them happy.</p>
+                    <p>Zombie Models is a series that was quite interesting and spontaneous in itself, as the entire project was made in a day.  A few weeks back I received a fashion book from one of my friends and one day I was bored so decided to just start scribbling on the faces of the models for fun, somehow it created something very surreal. The reason why I changed the faces into zombies was that I only had brown and two different shades of green left of my permeant markers, so I thought to change the idea of beauty into a fashionable decay of zombie flesh.</p>
                 </ArtDesc>
                 <ArtworkCard img={img1} title="Zomtastic" year="2016" subtitle="Digital Illustration">
                     
