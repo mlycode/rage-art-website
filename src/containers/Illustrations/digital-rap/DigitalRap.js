@@ -29,8 +29,7 @@ class DigitalRapPage extends Component {
                 <ImgGrid images={[img12, img13, img10, img4, img7]}/>
                 <Heading1>digital rap</Heading1>
                 <ArtDesc title="description">
-                    <p>Use your imagination, let it go. But they're very easily killed. Clouds are delicate. You have to make those little noises or it won't work. Let's put some highlights on these little trees. The sun wouldn't forget them. Let's give him a friend too. Everybody needs a friend.</p>
-                    <p>You can get away with a lot. Now let's put some happy little clouds in here. Let's make a happy little mountain now. Everyone needs a friend. Friends are the most valuable things in the world. Let's get wild today. Little trees and bushes grow however makes them happy.</p>
+                    <p>The Digital Rap series is an ongoing project which consists of illustrations of musician I'm currently listening to at that moment in time. My style of drawing constantly changes depending on the type of music and the energy it brings into the drawing, however recently I’ve been re-watching old anime series such as Hunter x Hunter, Bleach, Attack on Titan and many more.</p>
                 </ArtDesc>
                 <ArtworkCard img={img7} title="Devil Trip" year="2016" subtitle="Digital Illustration">
                     
