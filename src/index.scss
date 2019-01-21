@@ -36,6 +36,11 @@
     padding: 0;
 }
 
+::selection {
+    background-color: var(--colour-accent-red);
+    color: var(--colour-light-primary);
+}
+
 *,
 *::before,
 *::after {
