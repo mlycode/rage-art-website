@@ -14,26 +14,19 @@
         margin-right: 5rem;
     }
 
-    & a {
-        font-family: var(--primary-font);
-        font-size: 6rem;
+    img {
+        width: 70%;
+        height: 80%;
         display: block;
-        margin-top: .7rem;
-        color: var(--colour-primary-text);
-        text-decoration: none;
-        transition: all .2s;
-        line-height: 1.0;
-        text-align: center;
+        margin: 0 auto;
+        margin-top: .8rem;
+
     }
 
     &:hover {
         cursor: pointer;
         transform: translateY(-3px);
         box-shadow: 0 3px 2rem rgba(black, .4);
-
-        a {
-            color: var(--colour-accent-red);
-        }
     }
 
     &:active {
