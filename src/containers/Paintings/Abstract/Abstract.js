@@ -16,6 +16,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class AbstractPage extends Component {
 
+    componentDidMount () {
+        document.title = "Abstract - Paintings"
+    }
+
     render () {
 
         return (

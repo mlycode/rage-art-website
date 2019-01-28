@@ -9,6 +9,10 @@ import img1 from "../../assets/img/1.jpg";
 
 class Commisions extends Component {
 
+    componentDidMount () {
+        document.title = "Commisions - Rage Art"
+    }
+
     render () {
 
         return (

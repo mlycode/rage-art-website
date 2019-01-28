@@ -16,6 +16,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class AdeptGazePage extends Component {
 
+    componentDidMount () {
+        document.title = "Adept Gaze - Exhibitions"
+    }
+
     render () {
 
         return (

@@ -11,6 +11,10 @@ import highlightImg4 from "../../assets/img/willow-s.jpg";
 
 class Home extends Component {
 
+    componentDidMount () {
+        document.title = "Home - Rage Art"
+    }
+
     render() {
 
         return (

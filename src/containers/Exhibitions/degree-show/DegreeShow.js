@@ -21,6 +21,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class DegreeShowPage extends Component {
 
+    componentDidMount () {
+        document.title = "UAL Degree Show - Exhibitions"
+    }
+
     render () {
 
         return (

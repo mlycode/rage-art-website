@@ -26,6 +26,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class ColourEdPage extends Component {
 
+    componentDidMount () {
+        document.title = "Colour(ed) - Exhibitions"
+    }
+
     render () {
 
         return (

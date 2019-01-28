@@ -8,6 +8,10 @@ import HightlightCard from "../../components/HighlightCard/HighlightCard";
 
 class Illustrations extends Component {
 
+    componentDidMount () {
+        document.title = "Illustrations - Rage Art"
+    }
+
     render () {
 
         return (

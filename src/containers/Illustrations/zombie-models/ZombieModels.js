@@ -14,6 +14,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class ZombieModelsPage extends Component {
 
+    componentDidMount () {
+        document.title = "Zombie Models - Illustrations"
+    }
+
     render () {
 
         return (

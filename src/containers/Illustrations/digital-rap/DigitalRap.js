@@ -21,6 +21,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class DigitalRapPage extends Component {
 
+    componentDidMount () {
+        document.title = "Digital Rap - Illustrations"
+    }
+
     render () {
 
         return (

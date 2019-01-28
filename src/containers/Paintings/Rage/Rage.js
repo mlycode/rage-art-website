@@ -14,6 +14,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class RagePage extends Component {
 
+    componentDidMount () {
+        document.title = "Rage - Paintings"
+    }
+
     render () {
 
         return (

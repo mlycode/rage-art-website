@@ -16,6 +16,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class ThirdEyePage extends Component {
 
+    componentDidMount () {
+        document.title = "Third Eye - Exhibitions"
+    }
+
     render () {
 
         return (

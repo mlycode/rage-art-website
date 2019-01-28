@@ -8,6 +8,10 @@ import ArtDesc from "../../components/ArtDesc/ArtDesc";
 
 class Modelling extends Component {
 
+    componentDidMount () {
+        document.title = "Modelling - Rage Art"
+    }
+
     render() {
 
         return (

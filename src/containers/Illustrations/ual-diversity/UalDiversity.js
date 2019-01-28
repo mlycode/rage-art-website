@@ -13,6 +13,10 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 
 class UalReportPage extends Component {
 
+    componentDidMount () {
+        document.title = "UAL Diversity Report - Illustrations"
+    }
+
     render () {
 
         return (

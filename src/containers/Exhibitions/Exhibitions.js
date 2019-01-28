@@ -9,6 +9,10 @@ import HighlightCard from "../../components/HighlightCard/HighlightCard";
 
 class Exhibitions extends Component {
 
+    componentDidMount () {
+        document.title = "Exhibitions - Rage Art"
+    }
+
     render() {
 
         return (
