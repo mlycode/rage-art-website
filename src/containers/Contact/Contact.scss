@@ -1,4 +1,4 @@
-.commisions__description {
+.contact__description {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-gap: 1.5rem;
@@ -7,11 +7,19 @@
     margin-bottom: 10rem;
 }
 
-.commisions {
+.contact {
 
     a:visited,
     a:link {
         color: var(--colour-accent-red);
         text-decoration: none;
+    }
+
+    &__info {
+        margin-top: 10rem;
+
+        @media only screen and (max-width: 62.5em) {
+            margin-top: 5rem;
+        }
     }
 }

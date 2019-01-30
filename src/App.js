@@ -8,7 +8,7 @@ import Paintings from "./containers/Paintings/Paintings";
 import Illustrations from "./containers/Illustrations/Illustrations";
 import Exhibitions from "./containers/Exhibitions/Exhibitions";
 import Modelling from "./containers/Modelling/Modelling";
-import Commisions from "./containers/Commisions/Commisions";
+import Contact from "./containers/Contact/Contact";
 import RagePage from "./containers/Paintings/Rage/Rage";
 import AbstractPage from "./containers/Paintings/Abstract/Abstract";
 import UalReportPage from "./containers/Illustrations/ual-diversity/UalDiversity";
@@ -37,7 +37,7 @@ class App extends Component {
         <Route exact path="/exhibitions/colour-ed" component={ ColourEdPage } />
         <Route exact path="/exhibitions/third-eye" component={ ThirdEyePage } />
         <Route exact path="/modelling" component={ Modelling } />
-        <Route exact path="/commisions" component={ Commisions } />
+        <Route exact path="/contact" component={ Contact } />
         <Route exact path="/" component={ Home } />
         <Redirect to="/" />
       </Switch>

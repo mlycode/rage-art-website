@@ -1,36 +1,34 @@
 import React, { Component } from "react";
 
-import "./Commisions.scss";
-import Heading1 from "../../components/Heading1/Heading1";
+import "./Contact.scss";
 import HeaderImg from "../../components/HeaderImg/HeaderImg";
 import ArtDesc from "../../components/ArtDesc/ArtDesc";
-import DescCard from "../../components/DescCard/DescCard";
-import img1 from "../../assets/img/1.jpg";
 
-class Commisions extends Component {
+class Contact extends Component {
 
     componentDidMount () {
-        document.title = "Commisions - Rage Art"
+        document.title = "Contact me - Rage Art"
     }
 
     render () {
 
         return (
-            <section className="commisions">
+            <section className="contact">
                 <HeaderImg title="Contact">
                     <p><strong>Email:</strong> kourtney-Paul@outlook.com</p>
                     <p><strong>Instagram:</strong> <a href="https://www.instagram.com/therageart/" target="blank">@therageart</a></p>
                     <p><strong>Flickr:</strong> <a href="https://www.flickr.com/photos/129837726@N04/" target="blank">TheRageArt</a> </p>
                     <p><strong>Business Inquiries:</strong> kourtneystuartmason@gmail.com</p>
                 </HeaderImg>
-                <Heading1>Commisions</Heading1>
-                <ArtDesc title="info">
-                    <p>Contact me if you are interested in commisioning artwork. Rough prices are shown below</p>
-                </ArtDesc>
+                <div className="contact__info">
+                    <ArtDesc title="info">
+                        <p>Contact me if you are interested in commisioning artwork. Rough prices are shown below</p>
+                    </ArtDesc>
+                </div>
                 
             </section>
         );
     };
 };
 
-export default Commisions;
+export default Contact;

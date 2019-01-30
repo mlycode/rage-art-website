@@ -12,7 +12,7 @@ const Navitems = (props) => {
             <Navitem link="/illustrations">Illustrations</Navitem>
             <Navitem link="/exhibitions">exhibitions</Navitem>
             <Navitem link="/modelling">modelling</Navitem>
-            <Navitem link="/commisions">commisions</Navitem>
+            <Navitem link="/contact">contact</Navitem>
         </ul>
     );
 };
