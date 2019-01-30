@@ -27,14 +27,6 @@ class Commisions extends Component {
                 <ArtDesc title="info">
                     <p>Contact me if you are interested in commisioning artwork. Rough prices are shown below</p>
                 </ArtDesc>
-                <section className="commisions__description">
-                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
-                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
-                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
-                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
-                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
-                    <DescCard image={img1} price="From £20" item1="Black and White digital illustration" item2="High quality print on gloss printing paper" item3='7" x 4" sized print'/>
-                </section>
                 
             </section>
         );
