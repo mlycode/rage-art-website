@@ -22,7 +22,7 @@ class Contact extends Component {
                 </HeaderImg>
                 <div className="contact__info">
                     <ArtDesc title="info">
-                        <p>Contact me if you are interested in commisioning artwork. Rough prices are shown below</p>
+                        <p>Contact me if you are interested in commisioning artwork.</p>
                     </ArtDesc>
                 </div>
                 
