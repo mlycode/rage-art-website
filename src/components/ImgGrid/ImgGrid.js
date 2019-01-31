@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import "./ImgGrid.scss";
 
@@ -21,5 +22,9 @@ const ImgGrid = (props) => {
         </div>
     );
 }
+
+ImgGrid.propTypes = {
+    images: PropTypes.arrayOf(PropTypes.string)
+};
 
 export default ImgGrid;
