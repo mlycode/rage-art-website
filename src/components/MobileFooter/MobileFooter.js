@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./Footer.scss";
+import "./MobileFooter.scss";
 
-const Footer = () => {
+const MobileFooter = () => {
     return (
-        <footer className="nav__footer">
+        <footer className="mobile-footer">
             <Link exact to="/contact">Contact me</Link>
             <a href="https://www.instagram.com/therageart/?hl=en" target="none">Instagram</a>
             <p>Copyright &copy; 2019</p>
             <p>Made with &hearts; by mlycode</p>
         </footer>
-    );
+    )
 }
 
-export default Footer;
+export default MobileFooter;

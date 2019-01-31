@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 
 import "./Layout.scss";
 import Navbar from "../../components/Navbar/Navbar";
+import MoblieFooter from "../../components/MobileFooter/MobileFooter";
 
 class Layout extends Component {
 
@@ -34,6 +35,7 @@ class Layout extends Component {
                     <main className={"layout__content"} onClick={this.navDrawerContentClickHandler}>
                         {this.props.children}
                     </main>
+                    <MoblieFooter />
                 </div>
             </Fragment>
         );
