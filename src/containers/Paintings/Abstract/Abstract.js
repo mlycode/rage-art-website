@@ -28,15 +28,14 @@ class AbstractPage extends Component {
                 <ImgGrid images={[img1, img2, img3, img4, img5]}/>
                 <Heading1>abstract</Heading1>
                 <ArtDesc title="description">
-                    <p>Use your imagination, let it go. But they're very easily killed. Clouds are delicate. You have to make those little noises or it won't work. Let's put some highlights on these little trees. The sun wouldn't forget them. Let's give him a friend too. Everybody needs a friend.</p>
-                    <p>You can get away with a lot. Now let's put some happy little clouds in here. Let's make a happy little mountain now. Everyone needs a friend. Friends are the most valuable things in the world. Let's get wild today. Little trees and bushes grow however makes them happy.</p>
+                    <p>A series of colour studies created through diluted acrylic paint onto wood. The technique is similar to marbling, whereas I apply the acrylic onto the wood surface and let it dry for a completely random result. Personally, I quite enjoy this process as I’m usually a perfectionist and allowing myself to accept a finishing product without careful input is exciting.</p>
                 </ArtDesc>
-                <ArtworkCard img={img1} title="Rainbow" year="2016" subtitle="Oil on Canvas"></ArtworkCard>
-                <ArtworkCard img={img2} title="Chaos Flower" year="2016" subtitle="Oil on Canvas"></ArtworkCard>
-                <ArtworkCard img={img3} title="Red Giant" year="2016" subtitle="Oil on Canvas"></ArtworkCard>
-                <ArtworkCard img={img4} title="Fire Lake" year="2016" subtitle="Oil on Canvas"></ArtworkCard>
-                <ArtworkCard img={img5} title="Chilling" year="2016" subtitle="Oil on Canvas"></ArtworkCard>
-                <ArtworkCard img={img6} title="Ocean Blue" year="2016" subtitle="Oil on Canvas"></ArtworkCard>
+                <ArtworkCard img={img1} title="Rainbow" year="2016" subtitle="Acrylic on Wood"></ArtworkCard>
+                <ArtworkCard img={img2} title="Chaos Flower" year="2016" subtitle="Acrylic on Wood"></ArtworkCard>
+                <ArtworkCard img={img3} title="Red Giant" year="2016" subtitle="Acrylic on Wood"></ArtworkCard>
+                <ArtworkCard img={img4} title="Fire Lake" year="2016" subtitle="Acrylic on Canvas"></ArtworkCard>
+                <ArtworkCard img={img5} title="Chilling" year="2016" subtitle="Acrylic on Wood"></ArtworkCard>
+                <ArtworkCard img={img6} title="Ocean Blue" year="2016" subtitle="Acrylic on Wood"></ArtworkCard>
             </Fragment>
         );
     };
