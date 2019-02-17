@@ -25,7 +25,7 @@ class AbstractPage extends Component {
         return (
             <Fragment>
                 <BackLinkButton link="/paintings"/>
-                <ImgGrid images={[img1, img2, img3, img4, img5]}/>
+                <ImgGrid images={[img1, img2, img3, img4, img6]}/>
                 <Heading1>abstract</Heading1>
                 <ArtDesc title="description">
                     <p>A series of colour studies created through diluted acrylic paint onto wood. The technique is similar to marbling, whereas I apply the acrylic onto the wood surface and let it dry for a completely random result. Personally, I quite enjoy this process as I’m usually a perfectionist and allowing myself to accept a finishing product without careful input is exciting.</p>
