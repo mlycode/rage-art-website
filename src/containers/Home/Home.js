@@ -20,7 +20,7 @@ class Home extends Component {
         return (
             <Fragment>
                 <HeaderImg title="About">
-                    About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me About me 
+                Welcome to my website I love meme culture, black history, cartoons and colours 
                 </HeaderImg>
                 <Heading1>highlights</Heading1>
                 <HightlightCard
