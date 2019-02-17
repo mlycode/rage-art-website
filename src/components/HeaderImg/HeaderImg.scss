@@ -3,7 +3,7 @@
     &__container {
         background-color: #fff;
         width: 100%;
-        min-height: 30rem;
+        min-height: 35rem;
 
         display: flex;
         position: relative;
@@ -14,8 +14,9 @@
     }
     
     &__image {
-        background-image: url(../../assets/img/kourtney-portrait.jpg);
+        background-image: url(../../assets/img/logo-black.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
         background-position: center;
         background-position-x: -2rem;
         clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
@@ -61,7 +62,7 @@
         display: block;
         position: absolute;
         right: 45%;
-        margin-top: 6rem;
+        margin-top: 8rem;
 
         @media only screen and (max-width: 31.25em) {
             margin: 0 auto;
