@@ -5,6 +5,7 @@ import abstractImg from "../../assets/img/chaos-flower-2.jpg";
 import highlightImg1 from "../../assets/img/2.jpg";
 import Heading1 from "../../components/Heading1/Heading1";
 import HightlightCard from "../../components/HighlightCard/HighlightCard";
+import aucartImg from '../../assets/img/auc7.jpg';
 
 class Paintings extends Component {
 
@@ -19,6 +20,14 @@ class Paintings extends Component {
                 <Heading1>
                     paintings
                 </Heading1>
+
+                <HightlightCard
+                    link="/paintings/aucart" 
+                    sectionType="painting"
+                    backgroundImg={aucartImg}
+                    title="Aucart"
+                    subtitle="Artwork painted during my residency with Aucart"
+                />
 
                 <HightlightCard
                     link="/paintings/abstract" 
