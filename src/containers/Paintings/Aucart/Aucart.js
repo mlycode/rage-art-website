@@ -3,7 +3,6 @@ import React, { Component, Fragment } from "react";
 import "./Aucart.scss";
 
 import ImgGrid from "../../../components/ImgGrid/ImgGrid";
-import img1 from "../../../assets/img/auc1.jpg";
 import img2 from "../../../assets/img/auc2.jpg";
 import img3 from "../../../assets/img/auc3.jpg";
 import img5 from "../../../assets/img/auc5.jpg";
