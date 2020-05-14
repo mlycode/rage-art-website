@@ -26,7 +26,7 @@ class AucartPage extends Component {
         return (
             <Fragment>
                 <BackLinkButton link="/paintings"/>
-                <ImgGrid images={[img8, img1, img2, img7, img3]}/>
+                <ImgGrid images={[img8, img6, img2, img7, img3]}/>
                 <Heading1>Aucart</Heading1>
                 <ArtDesc title="description">
                     <p>Artwork painting during my residency with Aucart</p>
