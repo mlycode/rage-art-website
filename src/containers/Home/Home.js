@@ -9,6 +9,7 @@ import highlightImg2 from "../../assets/img/report-artwork4.jpg";
 import highlightImg3 from "../../assets/img/degreeshow.jpg";
 import highlightImg4 from "../../assets/img/willow-s.jpg";
 import highlightImg5 from '../../assets/img/auc7.jpg';
+import artMusicVideoImg from '../../assets/img/art-music-video-9.jpg'
 
 class Home extends Component {
 
@@ -24,6 +25,13 @@ class Home extends Component {
                 Welcome to my website I love meme culture, black history, cartoons and colours 
                 </HeaderImg>
                 <Heading1>highlights</Heading1>
+                <HightlightCard
+                    link="/paintings/art-music-video" 
+                    sectionType="painting"
+                    backgroundImg={artMusicVideoImg}
+                    title="Art & music"
+                    subtitle="Artwork painted for a music video shoot"
+                />
                 <HightlightCard
                     link="/paintings/aucart" 
                     sectionType="painting"

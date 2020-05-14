@@ -19,25 +19,33 @@ import AdeptGazePage from "./containers/Exhibitions/adept-gaze/AdeptGaze";
 import DegreeShowPage from "./containers/Exhibitions/degree-show/DegreeShow";
 import ColourEdPage from "./containers/Exhibitions/colour-ed/ColourEd";
 import ThirdEyePage from "./containers/Exhibitions/third-eye/ThirdEye";
+import ArtMusicVideoPage from './containers/Paintings/ArtMusicVideo/ArtMusicVideo';
 
 class App extends Component {
   render() {
 
     const routes = (
       <Switch>
+        {/** Paintings */}
         <Route exact path="/paintings" component={ Paintings } />
         <Route exact path="/paintings/rage" component={ RagePage } />
         <Route exact path="/paintings/abstract" component={ AbstractPage } />
         <Route exact path="/paintings/aucart" component={ AucartPage } />
+        <Route exact path="/paintings/art-music-video" component={ ArtMusicVideoPage } />
+
+        {/** Illustrations */}
         <Route exact path="/illustrations" component={ Illustrations } />
         <Route exact path="/illustrations/ual-diversity" component={ UalReportPage } />
         <Route exact path="/illustrations/digital-rap" component={ DigitalRapPage } />
         <Route exact path="/illustrations/zombie-models" component={ ZombieModelPage } />
+
+        {/** Exhibitions */}
         <Route exact path="/exhibitions" component={ Exhibitions } />
         <Route exact path="/exhibitions/adept-gaze" component={ AdeptGazePage } />
         <Route exact path="/exhibitions/ual-degree-show" component={ DegreeShowPage } />
         <Route exact path="/exhibitions/colour-ed" component={ ColourEdPage } />
         <Route exact path="/exhibitions/third-eye" component={ ThirdEyePage } />
+        
         <Route exact path="/modelling" component={ Modelling } />
         <Route exact path="/contact" component={ Contact } />
         <Route exact path="/" component={ Home } />

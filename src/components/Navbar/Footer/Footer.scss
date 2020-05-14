@@ -21,4 +21,15 @@
             }
         }
     }
+
+    a {
+        text-decoration: none;
+        color: var(--colour-light-primary);
+        transition: all .2s;
+        margin-bottom: 1rem;
+
+        &:hover {
+            color: var(--colour-accent-red);
+        }
+    }
 }

@@ -17,7 +17,7 @@ import BackLinkButton from "../../../components/BackLinkButton/BackLinkButton";
 class AucartPage extends Component {
 
     componentDidMount () {
-        document.title = "Abstract - Paintings"
+        document.title = "Aucart - Paintings"
     }
 
     render () {

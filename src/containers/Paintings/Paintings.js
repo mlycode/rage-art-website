@@ -6,6 +6,7 @@ import highlightImg1 from "../../assets/img/2.jpg";
 import Heading1 from "../../components/Heading1/Heading1";
 import HightlightCard from "../../components/HighlightCard/HighlightCard";
 import aucartImg from '../../assets/img/auc7.jpg';
+import artMusicVideoImg from '../../assets/img/art-music-video-9.jpg';
 
 class Paintings extends Component {
 
@@ -21,9 +22,19 @@ class Paintings extends Component {
                     paintings
                 </Heading1>
 
+
+
+                <HightlightCard
+                    link="/paintings/art-music-video" 
+                    sectionType="Art & music"
+                    backgroundImg={artMusicVideoImg}
+                    title="Art music video"
+                    subtitle="Artwork painted for a music video shoot"
+                />
+
                 <HightlightCard
                     link="/paintings/aucart" 
-                    sectionType="painting"
+                    sectionType="Aucart"
                     backgroundImg={aucartImg}
                     title="Aucart"
                     subtitle="Artwork painted during my residency with Aucart"
