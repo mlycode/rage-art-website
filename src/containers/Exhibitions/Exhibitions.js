@@ -5,6 +5,10 @@ import img1 from "../../assets/img/degreeshow.jpg";
 import img2 from "../../assets/img/adept-g.jpg";
 import img3 from "../../assets/img/coloured.jpg";
 import img4 from "../../assets/img/thirdeye.jpg";
+import llc from '../../assets/img/llc-14.jpg';
+import hereAndNow from '../../assets/img/here-and-now-1.jpg';
+import shoreditchExpo from '../../assets/img/shoreditch-expo-3.jpg';
+import blackMale from '../../assets/img/black-male-10.jpg';
 import HighlightCard from "../../components/HighlightCard/HighlightCard";
 
 class Exhibitions extends Component {
@@ -18,6 +22,38 @@ class Exhibitions extends Component {
         return (
             <Fragment>
                 <Heading1>exhibitions</Heading1>
+
+                <HighlightCard
+                    link="/exhibitions/black-male-is-____"
+                    sectionType="The Black Male Is _______"
+                    backgroundImg={blackMale}
+                    title="The Black Male Is _______"
+                    subtitle="complex and authentic stories about Black males through art"
+                />
+
+                <HighlightCard
+                    link="/exhibitions/diffrnt-shoreditch-box-park"
+                    sectionType="DIFFЯNT Shoreditch Boxpark"
+                    backgroundImg={shoreditchExpo}
+                    title="DIFFЯNT Shoreditch Boxpark"
+                    subtitle="talented artists doing live paintings and exhibiting work"
+                />
+
+                <HighlightCard
+                    link="/exhibitions/here-and-now"
+                    sectionType="Here and Now"
+                    backgroundImg={hereAndNow}
+                    title="Here and Now"
+                    subtitle="works by black UK artists on the theme of Britain today"
+                />
+
+                <HighlightCard
+                    link="/exhibitions/diffrnt-live-painting"
+                    sectionType="DIFFЯNT Live Painting"
+                    backgroundImg={llc}
+                    title="DIFFЯNT Live Painting"
+                    subtitle="a live painting session hosted by art agency DIFFЯNT"
+                />
 
                 <HighlightCard
                     link="/exhibitions/ual-degree-show"

@@ -8,7 +8,7 @@ const MobileFooter = () => {
         <footer className="mobile-footer">
             <Link to="/contact">Contact me</Link>
             <a href="https://www.instagram.com/therageart/?hl=en" target="none">Instagram</a>
-            <p>Copyright &copy; 2019</p>
+            <p>Copyright &copy; 2020</p>
             <p>Made with &hearts; by mlycode</p>
         </footer>
     )

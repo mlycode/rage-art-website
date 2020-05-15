@@ -20,6 +20,10 @@ import DegreeShowPage from "./containers/Exhibitions/degree-show/DegreeShow";
 import ColourEdPage from "./containers/Exhibitions/colour-ed/ColourEd";
 import ThirdEyePage from "./containers/Exhibitions/third-eye/ThirdEye";
 import ArtMusicVideoPage from './containers/Paintings/ArtMusicVideo/ArtMusicVideo';
+import LLCDrawingSessionPage from './containers/Exhibitions/LLCDrawingSession/LLCDrawingSession';
+import HereAndNowPage from './containers/Exhibitions/HereAndNow/HereAndNow';
+import ShoreditchExpoPage from './containers/Exhibitions/ShoreditchExpo/ShoreditchExpo';
+import BlackMalePage from './containers/Exhibitions/BlackMale/BlackMale';
 
 class App extends Component {
   render() {
@@ -45,6 +49,10 @@ class App extends Component {
         <Route exact path="/exhibitions/ual-degree-show" component={ DegreeShowPage } />
         <Route exact path="/exhibitions/colour-ed" component={ ColourEdPage } />
         <Route exact path="/exhibitions/third-eye" component={ ThirdEyePage } />
+        <Route exact path="/exhibitions/diffrnt-live-painting" component={ LLCDrawingSessionPage } />
+        <Route exact path="/exhibitions/here-and-now" component={ HereAndNowPage } />
+        <Route exact path="/exhibitions/diffrnt-shoreditch-box-park" component={ ShoreditchExpoPage } />
+        <Route exact path="/exhibitions/black-male-is-____" component={ BlackMalePage } />
         
         <Route exact path="/modelling" component={ Modelling } />
         <Route exact path="/contact" component={ Contact } />
